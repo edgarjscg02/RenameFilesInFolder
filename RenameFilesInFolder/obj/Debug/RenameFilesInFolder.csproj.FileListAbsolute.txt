@@ -1,0 +1,9 @@
+c:\users\edgar\documents\visual studio 2015\Projects\RenameFilesInFolder\RenameFilesInFolder\bin\Debug\RenameFilesInFolder.exe.config
+c:\users\edgar\documents\visual studio 2015\Projects\RenameFilesInFolder\RenameFilesInFolder\bin\Debug\RenameFilesInFolder.exe
+c:\users\edgar\documents\visual studio 2015\Projects\RenameFilesInFolder\RenameFilesInFolder\bin\Debug\RenameFilesInFolder.pdb
+c:\users\edgar\documents\visual studio 2015\Projects\RenameFilesInFolder\RenameFilesInFolder\obj\Debug\RenameFilesInFolder.csprojResolveAssemblyReference.cache
+c:\users\edgar\documents\visual studio 2015\Projects\RenameFilesInFolder\RenameFilesInFolder\obj\Debug\RenameFilesInFolder.frmRenameFiles.resources
+c:\users\edgar\documents\visual studio 2015\Projects\RenameFilesInFolder\RenameFilesInFolder\obj\Debug\RenameFilesInFolder.Properties.Resources.resources
+c:\users\edgar\documents\visual studio 2015\Projects\RenameFilesInFolder\RenameFilesInFolder\obj\Debug\RenameFilesInFolder.csproj.GenerateResource.Cache
+c:\users\edgar\documents\visual studio 2015\Projects\RenameFilesInFolder\RenameFilesInFolder\obj\Debug\RenameFilesInFolder.exe
+c:\users\edgar\documents\visual studio 2015\Projects\RenameFilesInFolder\RenameFilesInFolder\obj\Debug\RenameFilesInFolder.pdb
