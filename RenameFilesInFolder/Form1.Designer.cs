@@ -27,7 +27,88 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
-        {            
+        {
+            this.lblPath = new System.Windows.Forms.Label();
+            this.txtPath = new System.Windows.Forms.TextBox();
+            this.btnProcess = new System.Windows.Forms.Button();
+            this.txtPrefix = new System.Windows.Forms.TextBox();
+            this.lblPrefix = new System.Windows.Forms.Label();
+            this.lblBeginIn = new System.Windows.Forms.Label();
+            this.txtBeginIn = new System.Windows.Forms.TextBox();
+            this.txtProcess = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // lblPath
+            // 
+            this.lblPath.AutoSize = true;
+            this.lblPath.Location = new System.Drawing.Point(12, 15);
+            this.lblPath.Name = "lblPath";
+            this.lblPath.Size = new System.Drawing.Size(32, 13);
+            this.lblPath.TabIndex = 0;
+            this.lblPath.Text = "Path:";
+            // 
+            // txtPath
+            // 
+            this.txtPath.Location = new System.Drawing.Point(50, 12);
+            this.txtPath.Name = "txtPath";
+            this.txtPath.Size = new System.Drawing.Size(222, 20);
+            this.txtPath.TabIndex = 1;
+            // 
+            // btnProcess
+            // 
+            this.btnProcess.Location = new System.Drawing.Point(101, 73);
+            this.btnProcess.Name = "btnProcess";
+            this.btnProcess.Size = new System.Drawing.Size(75, 23);
+            this.btnProcess.TabIndex = 2;
+            this.btnProcess.Text = "Process";
+            this.btnProcess.UseVisualStyleBackColor = true;
+            this.btnProcess.Click += new System.EventHandler(this.btnProcess_Click);
+            // 
+            // txtPrefix
+            // 
+            this.txtPrefix.Location = new System.Drawing.Point(50, 38);
+            this.txtPrefix.Name = "txtPrefix";
+            this.txtPrefix.Size = new System.Drawing.Size(87, 20);
+            this.txtPrefix.TabIndex = 3;
+            this.txtPrefix.Text = "S1E";
+            // 
+            // lblPrefix
+            // 
+            this.lblPrefix.AutoSize = true;
+            this.lblPrefix.Location = new System.Drawing.Point(12, 41);
+            this.lblPrefix.Name = "lblPrefix";
+            this.lblPrefix.Size = new System.Drawing.Size(36, 13);
+            this.lblPrefix.TabIndex = 4;
+            this.lblPrefix.Text = "Prefix:";
+            // 
+            // lblBeginIn
+            // 
+            this.lblBeginIn.AutoSize = true;
+            this.lblBeginIn.Location = new System.Drawing.Point(147, 41);
+            this.lblBeginIn.Name = "lblBeginIn";
+            this.lblBeginIn.Size = new System.Drawing.Size(48, 13);
+            this.lblBeginIn.TabIndex = 5;
+            this.lblBeginIn.Text = "Begin in:";
+            // 
+            // txtBeginIn
+            // 
+            this.txtBeginIn.Location = new System.Drawing.Point(201, 38);
+            this.txtBeginIn.Name = "txtBeginIn";
+            this.txtBeginIn.Size = new System.Drawing.Size(71, 20);
+            this.txtBeginIn.TabIndex = 6;
+            this.txtBeginIn.Text = "1";
+            // 
+            // txtProcess
+            // 
+            this.txtProcess.BackColor = System.Drawing.SystemColors.Info;
+            this.txtProcess.Location = new System.Drawing.Point(15, 102);
+            this.txtProcess.Multiline = true;
+            this.txtProcess.Name = "txtProcess";
+            this.txtProcess.ReadOnly = true;
+            this.txtProcess.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.txtProcess.Size = new System.Drawing.Size(257, 147);
+            this.txtProcess.TabIndex = 7;
+            this.txtProcess.WordWrap = false;
             // 
             // frmRenameFiles
             // 
@@ -54,6 +135,15 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Label lblPath;
+        private System.Windows.Forms.TextBox txtPath;
+        private System.Windows.Forms.Button btnProcess;
+        private System.Windows.Forms.TextBox txtPrefix;
+        private System.Windows.Forms.Label lblPrefix;
+        private System.Windows.Forms.Label lblBeginIn;
+        private System.Windows.Forms.TextBox txtBeginIn;
+        private System.Windows.Forms.TextBox txtProcess;
     }
 }
 
